@@ -42,7 +42,7 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 # Android
 
 
-The latest version of the Android Pubguard Library is **1.0.14**
+The latest version of the Android Pubguard Library is **1.0.15**
 
 
 
@@ -69,7 +69,7 @@ repositories {
 dependencies {
 ...
 
-    implementation 'com.pubguard:pubguard-client:1.0.14'
+    implementation 'com.pubguard:pubguard-client:1.0.15'
 
 }
 
