@@ -17,12 +17,14 @@ Table of contents
 * [Table of contents](#table-of-contents)
 * [Android](#android)
 * [iOS](#ios)
+* [Change Log](#change-log)
 * [Library Size](#library-size)
 * [SDK support](#support)
 * [Requirements](#requirements)
 * [Versioning](#versioning)
 * [License](#license)
 * [FAQs](https://github.com/pubguard/pubguard-library-guide/wiki/FAQs)
+
 <!--te-->
 
 # Getting Started
@@ -176,6 +178,14 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 ---
 
+## Changelog
+
+
+For all release notes and previous versions please see our [changelog](changelog.md).
+
+
+---
+
 ## Library Size
 
 The Pubguard team understands the importance of having a small footprint and our library is optimised to be as lightweight as possible on both iOS and Android.
@@ -240,6 +250,4 @@ Please use the most up to date version at all times to ensure maximum support.
 
 ## License
 
-*© 2018 Minimised Media Limited (Pubguard)*
-
-
+*© 2018 Minimised Media Limited (Pubguard© 2017 All Rights Reserved)*
