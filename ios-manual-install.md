@@ -12,14 +12,16 @@ Add the Pubguard Library to Target > General > Embedded Binaries. If you add the
 
 ![alt text](imgs/build-phase.png)
 
-Select the build script from Build Phases
+Download file [strip-frameworks.sh](strip-frameworks.sh) and put this file in root folder of your project.
+
+In Project Navigator choose your project and go to "Build Phases" and in the top left corner find and press "add" button. Hit "New Run Script Phase" and choose new "Run Script".
 
 ![alt text](imgs/select-build-script.png)
 
 Add the following Build script
 
 ```
-bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pubguard.framework/strip-frameworks.sh"
+bash "${SRCROOT}/${PROJECT_NAME}/strip-frameworks.sh"
 ```
 
 ![alt text](imgs/add-build-script.png)
