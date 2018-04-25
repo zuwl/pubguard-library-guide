@@ -26,3 +26,6 @@ bash "${SRCROOT}/${PROJECT_NAME}/strip-frameworks.sh"
 
 ![alt text](imgs/add-build-script.png)
 
+Also in "Build Phases" add Pubguard framework in "Embed Frameworks".
+
+![alt text](imgs/add-embed-frameworks.png)
