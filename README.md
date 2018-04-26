@@ -104,7 +104,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.0.8**
+The latest version of the iOS Pubguard Library is **1.0.11**
 
 ### Installing
 
@@ -115,7 +115,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.0.8/Pubguard-1.0.8.podspec?access_token=${pubguardKey}'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.0.11/Pubguard-1.0.11.podspec?access_token=${pubguardKey}'
 ```
 
 Then run "pod install --repo-update"
