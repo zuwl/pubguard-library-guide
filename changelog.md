@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## iOS
+### 1.0.11 (2018/04/26)
+* Code signing changes 
 
 ### 1.0.9 (2018/04/25)
 * Improved Mopub mediation support
