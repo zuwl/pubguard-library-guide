@@ -63,7 +63,7 @@ repositories {
 
             credentials {
             username 'pubguard'
-            password '${pubguardKey}'
+            password 'YOUR_PUBGUARD_KEY_HERE'
             }
         }
 }
@@ -91,7 +91,7 @@ public class QuizzyApplication extends Application {
     @Override public void onCreate() {
         super.onCreate();
 
-        Pubguard.init(this, "pubguardKey");
+        Pubguard.init(this, "YOUR_PUBGUARD_KEY_HERE");
         }
 }
 ```
@@ -115,7 +115,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.0.11/Pubguard-1.0.11.podspec?access_token=${pubguardKey}'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.0.11/Pubguard-1.0.11.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -147,7 +147,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         // Initialize the Pubguard Library.
-        Pubguard.initiateTrackerWithKey("pubguardKey")
+        Pubguard.initiateTrackerWithKey("YOUR_PUBGUARD_KEY_HERE")
 
         return true
     }
@@ -169,7 +169,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     // Initialize the Pubguard Library.
-    [Pubguard initiateTrackerWithKey:@"pubguardKey"];
+    [Pubguard initiateTrackerWithKey:@"YOUR_PUBGUARD_KEY_HERE"];
     return YES;
 }
 
