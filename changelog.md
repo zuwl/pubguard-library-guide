@@ -4,7 +4,7 @@
 
 ### 1.2.0 (2018/05/29)
 * OpenX Version 4.7.0 support
-* AppNexus 4.7.1 support
+* AppNexus mediation support
 * Facebook video ads support
 * Improved creativeId detection 
 
