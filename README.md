@@ -104,7 +104,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.0.11**
+The latest version of the iOS Pubguard Library is **1.2.0**
 
 ### Installing
 
@@ -115,7 +115,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.0.11/Pubguard-1.0.11.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.2.0/Pubguard-1.2.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -218,6 +218,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | IronSourceSDK | 6.7.7.0 | |
 | MMAdSDK | 6.6.0| 4.20.0 |
 | mopub-ios/drd-sdk | 4.20.0| 4.20.0 |
+| OpenX | 4.7.0 | |
 | RFMAdSDK | 6.4.0| 6.3.2|
 | SmaatoSDK | 8.2.3 | 7.2.1 |
 
