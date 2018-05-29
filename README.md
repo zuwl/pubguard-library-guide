@@ -213,11 +213,11 @@ These are SDKs designed specifically for serving advertising content into your a
 | AppNexusSDK | 4.0.1 |    |
 | FBAudienceNetwork | 4.28.0 |   |
 | Firebase/AdMob | 4.10.0 | 11.8.0  |
-| Google-Mobile-Ads-SDK | 7.29.0 |  |
+| Google-Mobile-Ads-SDK | 7.30.0 |  |
 | InMobiSDK | 7.0.4 | 7.0.4  |
 | IronSourceSDK | 6.7.7.0 | |
-| MMAdSDK | 6.6.0| 4.20.0 |
-| mopub-ios/drd-sdk | 4.20.0| 4.20.0 |
+| MMAdSDK | 6.8.0| 4.20.0 |
+| mopub-ios/drd-sdk | 5.0.0| 4.20.0 |
 | OpenX | 4.7.0 | |
 | RFMAdSDK | 6.4.0| 6.3.2|
 | SmaatoSDK | 8.2.3 | 7.2.1 |
