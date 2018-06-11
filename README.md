@@ -44,7 +44,7 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 # Android
 
 
-The latest version of the Android Pubguard Library is **1.0.17**
+The latest version of the Android Pubguard Library is **1.1.0**
 
 
 
@@ -71,7 +71,7 @@ repositories {
 dependencies {
 ...
 
-    implementation 'com.pubguard:pubguard-client:1.0.17'
+    implementation 'com.pubguard:pubguard-client:1.1.0'
 
 }
 
@@ -210,17 +210,17 @@ These are SDKs designed specifically for serving advertising content into your a
 | ------- | ----- | ------- |
 | AdColony   | 3.3.0|    |
 | AmazonAd   | 2.2.15.1 | 5.8.2   |
-| AppNexusSDK | 4.0.1 |    |
+| AppNexusSDK | 4.0.1 |  4.8  |
 | FBAudienceNetwork | 4.28.0 |   |
-| Firebase/AdMob | 4.10.0 | 11.8.0  |
-| Google-Mobile-Ads-SDK | 7.30.0 |  |
-| InMobiSDK | 7.0.4 | 7.0.4  |
+| Firebase/AdMob | 4.10.0 | 15.0.0  |
+| Google-Mobile-Ads-SDK | 7.30.0 | 15.0.0 |
+| InMobiSDK | 7.0.4 | 7.1.1  |
 | IronSourceSDK | 6.7.7.0 | |
 | MMAdSDK | 6.8.0| 4.20.0 |
-| mopub-ios/drd-sdk | 5.0.0| 4.20.0 |
+| MoPub | 5.0.0| 5.1 |
 | OpenX | 4.7.0 | |
 | RFMAdSDK | 6.4.0| 6.3.2|
-| SmaatoSDK | 8.2.3 | 7.2.1 |
+| SmaatoSDK | 8.2.3 | 8.0.1 |
 
 ### Mediation Support
 
