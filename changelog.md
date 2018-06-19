@@ -18,6 +18,15 @@
 
 ## Android
 
+### 1.2.0 (2018/06/19)
+* Removing LeakCanary dependency
+
+### 1.1.0 (2018/06/11)
+* Improving redirect detection
+* AppNexus mediation support
+* Mopub 5.1 support
+* InMobi 7.0.4 support
+
 ### 1.0.15 (2018/04/20)
 * Improving support for DFP custom publisher views
 * Stability improvements
