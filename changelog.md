@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## iOS
+### 1.7.0 (2018/06/15)
+* Core data concurrency fixes
 
 ### 1.6.0 (2018/06/15)
 * Improved date/time reporting
