@@ -6,6 +6,9 @@ Proguard will by default rename these classes therefore you are required to add 
 
 ```
 ##START Pubguard Library rules
+
+-keep class com.pubguard.client.**
+-keep class com.pubguard.client.*{* ;}
 -keep class com.smaato.** { *; }
 -keep class com.inmobi.** { *; }
 -keep class com.rfm.** { *; }
@@ -13,6 +16,7 @@ Proguard will by default rename these classes therefore you are required to add 
 -keep class com.millennialmedia.** { *; }
 -keep class com.mopub.** { *; }
 -keep class com.google.android.gms.** { *; }
+-keep class com.openx.** { *; }
 
 -keepnames class com.mopub.** { *; }
 -keepnames class com.millennialmedia.** { *; }
@@ -21,6 +25,7 @@ Proguard will by default rename these classes therefore you are required to add 
 -keepnames class com.inmobi.** { *; }
 -keepnames class com.smaato.** { *; }
 -keepnames class com.google.android.gms.** { *; }
+-keepnames class com.openx.** { *; }
 
 -keepclasseswithmembers class * {
 @com.smaato.* <methods>;
@@ -43,5 +48,17 @@ Proguard will by default rename these classes therefore you are required to add 
 -keepclasseswithmembers class * {
 @com.google.android.gms.* <methods>;
 }
+
+-keepclasseswithmembers class * {
+@com.openx.* <methods>;
+}
+
+-keepclasseswithmembers class * {
+ @com.pubguard.client.* <methods>;
+}
+-keepclasseswithmembers interface * {
+ @com.pubguard.client.* <methods>;
+}
+
 ##STOP Pubguard rules
 ```
