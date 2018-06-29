@@ -46,6 +46,8 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 
 The latest version of the Android Pubguard Library is **1.2.0**
 
+**NB do not minify the Pubguard library**
+
 
 
 ### Installing
