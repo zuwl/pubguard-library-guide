@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.7.2 (2018/07/13)
+* Fix for race condition during initialization
+
 ### 1.7.0 (2018/06/15)
 * Core data concurrency fixes
 
