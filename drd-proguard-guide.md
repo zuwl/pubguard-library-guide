@@ -7,8 +7,16 @@ Proguard will by default rename these classes therefore you are required to add 
 ```
 ##START Pubguard Library rules
 
--keep class com.pubguard.client.**
--keep class com.pubguard.client.*{* ;}
+-keep public class com.pubguard.client.database.beans.*{* ;}
+-keep public class * extends com.pubguard.client.factory.adFactory {
+    public static com.pubguard.client.factory.* initialize(...);
+}
+
+-dontwarn com.aerserv.**
+-dontwarn com.openx.**
+-dontwarn com.inmobi.**
+-dontwarn com.smaato.**
+-keep class com.aerserv.**
 -keep class com.smaato.** { *; }
 -keep class com.inmobi.** { *; }
 -keep class com.rfm.** { *; }
@@ -28,37 +36,34 @@ Proguard will by default rename these classes therefore you are required to add 
 -keepnames class com.openx.** { *; }
 
 -keepclasseswithmembers class * {
-@com.smaato.* <methods>;
+    @com.smaato.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.inmobi.* <methods>;
+    @com.inmobi.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.rfm.* <methods>;
+    @com.rfm.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.amazon.* <methods>;
+    @com.amazon.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.millennialmedia.* <methods>;
+    @com.millennialmedia.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.mopub.* <methods>;
+    @com.mopub.* <methods>;
 }
 -keepclasseswithmembers class * {
-@com.google.android.gms.* <methods>;
+    @com.google.android.gms.* <methods>;
 }
-
 -keepclasseswithmembers class * {
-@com.openx.* <methods>;
+    @com.openx.* <methods>;
 }
-
 -keepclasseswithmembers class * {
- @com.pubguard.client.* <methods>;
+    @com.aerserv.* <methods>;
 }
 -keepclasseswithmembers interface * {
- @com.pubguard.client.* <methods>;
+    @com.aerserv.* <methods>;
 }
 
-##STOP Pubguard rules
 ```
