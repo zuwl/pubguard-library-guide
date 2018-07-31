@@ -1,6 +1,12 @@
 # CHANGELOG
 
 ## iOS
+
+### 1.8.0 (2018/07/31)
+* Improved mediation support
+* Improved Redirect detection 
+* Fix for null pointer exceptions in click url finder logic
+
 ### 1.7.2 (2018/07/13)
 * Fix for race condition during initialization
 
