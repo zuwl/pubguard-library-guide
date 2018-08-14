@@ -213,24 +213,27 @@ These are SDKs designed specifically for serving advertising content into your a
 | AdColony   | 3.3.0|    |
 | AmazonAd   | 2.2.15.1 | 5.8.2   |
 | AppNexusSDK | 4.0.1 |  4.8  |
-| FBAudienceNetwork | 4.28.0 |   |
+| FBAudienceNetwork | 4.99.1 |   |
 | Firebase/AdMob | 4.10.0 | 15.0.0  |
-| Google-Mobile-Ads-SDK | 7.30.0 | 15.0.0 |
-| InMobiSDK | 7.0.4 | 7.1.1  |
-| IronSourceSDK | 6.7.7.0 | |
-| MMAdSDK | 6.8.0| 4.20.0 |
+| Google-Mobile-Ads-SDK | 7.31.0 | 15.0.0 |
+| InMobiSDK | 7.1.1 | 7.1.1  |
+| IronSourceSDK | 6.7.10 | |
+| AOL one (MMAdSDK) | 6.8.0| 4.20.0 |
 | MoPub | 5.1.0| 5.1 |
 | OpenX | 4.7.0 | |
 | RFMAdSDK | 6.4.0| 6.3.2|
-| SmaatoSDK | 8.2.3 | 8.0.1 |
+| SmaatoSDK | 9.0.2 | 8.0.1 |
 
 ### Mediation Support
 
-Mediation platforms can be used to manage the various SDKs within your platform, although most platforms don't affect Pubguard's monitoring solution in any way if you do have a question please email support@pubguard.com to clarify.
+Mediation platforms or networks can be used to manage the various SDKs within your platform, although most platforms don't affect Pubguard's monitoring solution in any way if you do have a question please email support@pubguard.com to clarify.
 
 | Mediator     | iOS   | Android |
 | ------- | ----- | ------- |
 | AATKit (addApptr)   | 2.65.34|    |
+| DFP   | 7.31.0 | 15.0.0 |
+| AppNexusSDK | 4.0.1 |  4.8  |
+
 
 ## Requirements
 
