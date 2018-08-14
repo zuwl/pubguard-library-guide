@@ -212,16 +212,16 @@ These are SDKs designed specifically for serving advertising content into your a
 | ------- | ----- | ------- |
 | AdColony   | 3.3.0|    |
 | AmazonAd   | 2.2.15.1 | 5.8.2   |
-| AppNexusSDK | 4.0.1 |  4.8  |
-| FBAudienceNetwork | 4.99.1 |   |
+| AppNexusSDK | 4.0.1 |  4.0.1  |
+| FBAudienceNetwork | 4.99.1 | 4.28.2  |
 | Firebase/AdMob | 4.10.0 | 15.0.0  |
 | Google-Mobile-Ads-SDK | 7.31.0 | 15.0.0 |
 | InMobiSDK | 7.1.1 | 7.1.1  |
 | IronSourceSDK | 6.7.10 | |
-| AOL one (MMAdSDK) | 6.8.0| 4.20.0 |
-| MoPub | 5.1.0| 5.1 |
-| OpenX | 4.7.0 | |
-| RFMAdSDK | 6.4.0| 6.3.2|
+| AOL one (MMAdSDK) | 6.8.0| 6.8.0 |
+| MoPub | 5.1.0| 5.1.0 |
+| OpenX | 4.7.0 |4.7.0 |
+| RFMAdSDK | 6.4.0| 6.4.0|
 | SmaatoSDK | 9.0.2 | 8.0.1 |
 
 ### Mediation Support
