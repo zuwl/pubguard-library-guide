@@ -1,6 +1,10 @@
 # CHANGELOG
 
 ## iOS
+### 1.9.0 (2018/08/22)
+* Ad blocking
+* SDK support updates
+
 ### 1.8.1 (2018/07/31)
 * Fix for incorrectly flagged redirects on older devices
 
@@ -40,6 +44,23 @@
 * Fix for crash from old os version using core data
 
 ## Android
+
+### 1.7.0 (2018/08/22
+* Ad blocking
+* Delayed startup 
+
+### 1.6.0 (2018/07/17
+* Proguard rules change
+
+### 1.5.0 (2018/07/10
+* Performance improvements
+
+### 1.4.0 (2018/07/10
+* Performance improvements
+
+### 1.3.0 (2018/06/28)
+* Improved click detection
+* Facebook upadtes
 
 ### 1.2.0 (2018/06/19)
 * Removing LeakCanary dependency
