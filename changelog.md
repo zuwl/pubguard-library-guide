@@ -45,6 +45,10 @@
 
 ## Android
 
+### 1.8.0 (2018/08/23
+* Sample based ad scanning
+* Performance improvements for older devices
+
 ### 1.7.0 (2018/08/22
 * Ad blocking
 * Delayed startup 
