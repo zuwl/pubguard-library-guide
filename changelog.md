@@ -44,6 +44,8 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.9.0 (2018/08/24
+* Ad blocking improvements
 
 ### 1.8.0 (2018/08/23
 * Sample based ad scanning
