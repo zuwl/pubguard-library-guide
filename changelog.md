@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.10.0 (2018/08/24)
+* Ad blocking with replacement preview
+
 ### 1.9.0 (2018/08/22)
 * Ad blocking
 * SDK support updates
