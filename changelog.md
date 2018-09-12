@@ -1,6 +1,12 @@
 # CHANGELOG
 
 ## iOS
+### 1.12.0 (2018/09/12)
+* Bugfix for issue in decision handler logic during app backgrounding
+
+### 1.11.0 (2018/08/30)
+* Complaints API preview
+
 ### 1.10.0 (2018/08/24)
 * Ad blocking with replacement preview
 
