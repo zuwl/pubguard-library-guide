@@ -233,7 +233,7 @@ Mediation platforms or networks can be used to manage the various SDKs within yo
 | AATKit (addApptr)   | 2.65.34|    |
 | DFP   | 7.31.0 | 15.0.0 |
 | AppNexusSDK | 4.0.1 |  4.8  |
-
+| MoPub | 5.1.0| 5.1.0 |
 
 ## Requirements
 
@@ -256,4 +256,4 @@ Please use the most up to date version at all times to ensure maximum support.
 
 ## License
 
-*© 2018 Minimised Media Limited (Pubguard© 2017 All Rights Reserved)*
+*© 2017 Minimised Media Limited (Pubguard© 2017 All Rights Reserved)*
