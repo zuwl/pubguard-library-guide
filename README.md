@@ -72,12 +72,14 @@ repositories {
 
 dependencies {
 ...
-
+    implementation 'com.google.android.gms:play-services-basement:15.0.1'
     implementation 'com.pubguard:pubguard-client:1.9.0'
 
 }
 
 ```
+Note that we require `implementation 'com.google.android.gms:play-services-basement:[GOOGLE_AD_VERSION]'`
+[GOOGLE_AD_VERSION] Version is based on your google ads version as per above. Even if you are not using Google ads, you still need to add support for Google services.
 
 
 #### Initialising the Library
