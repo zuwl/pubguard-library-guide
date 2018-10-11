@@ -44,7 +44,7 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 # Android
 
 
-The latest version of the Android Pubguard Library is **1.9.0**
+The latest version of the Android Pubguard Library is **1.12.0**
 
 **NB do not minify the Pubguard library**
 
@@ -72,8 +72,8 @@ repositories {
 
 dependencies {
 ...
-    implementation 'com.google.android.gms:play-services-basement:15.0.1'
-    implementation 'com.pubguard:pubguard-client:1.9.0'
+    implementation 'com.google.android.gms:play-services-basement:[GOOGLE_AD_VERSION]'
+    implementation 'com.pubguard:pubguard-client:1.12.0'
 
 }
 
