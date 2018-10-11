@@ -53,6 +53,11 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.12.0 (2018/10/10
+* Click url detection improvements
+* Client includes IDFA in message
+* Improved native DFP ad support
+
 ### 1.9.0 (2018/08/24
 * Ad blocking improvements
 
