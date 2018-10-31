@@ -189,7 +189,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 #### Unity
 
-As was mentioned earlier, pubguard installation and initialization must be in Xcode project, which you get after building Unity project for iOS platform. In this project find UnityAppController.mm file and find application didFinishLaunchingWithOptions function. Add [Pubguard initiateTrackerWithKey:@"YOUR_PUBGUARD_KEY_HERE"];
+As was mentioned earlier, pubguard installation and initialization must be in Xcode project, which you get after building Unity project for iOS platform. In this project find **UnityAppController.mm** file and find **application didFinishLaunchingWithOptions** function. Add ```[Pubguard initiateTrackerWithKey:@"YOUR_PUBGUARD_KEY_HERE"];```.
 
 ```
 *Example UnityAppController.mm (excerpt)*
