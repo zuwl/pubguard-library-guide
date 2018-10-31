@@ -56,6 +56,9 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.13.0 (2018/10/31)
+* Support for older versions of gradle (including 3.2.1) 
+
 ### 1.12.0 (2018/10/10
 * Click url detection improvements
 * Client includes IDFA in message
