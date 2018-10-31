@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.13.0 (2018/10/31)
+* Improved Video ad support.
+
 ### 1.12.0 (2018/09/12)
 * Bugfix for issue in decision handler logic during app backgrounding
 
