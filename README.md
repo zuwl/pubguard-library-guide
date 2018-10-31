@@ -255,6 +255,9 @@ These are SDKs designed specifically for serving advertising content into your a
 | OpenX | 4.7.0 |4.7.0 |
 | RFMAdSDK | 6.4.0| 6.4.0|
 | SmaatoSDK | 9.0.2 | 8.0.1 |
+| Tapjoy | 12.1.0 | |
+| Unity Ads | 2.3.0 | |
+| Vungle | 6.2.0 | |
 
 ### Mediation Support
 
