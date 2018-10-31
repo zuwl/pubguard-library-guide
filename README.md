@@ -128,7 +128,13 @@ Then run "pod install --repo-update"
 
 If you are adding the library manually please refer to these [instructions](ios-manual-install.md).
 
-#### Initialising the Library
+
+#### Unity installation
+
+Unity installation is the same as manual installation [instructions](ios-manual-install.md). Framework must be installed in Xcode project, which you get after building Unity project for iOS platform.
+
+
+### Initialising the Library
 
 The Pubguard Library should be initialised once at app launch, Here's an example of how to call the init method in your AppDelegate:
 
@@ -168,6 +174,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 …
 
 @implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    // Initialize the Pubguard Library.
+    [Pubguard initiateTrackerWithKey:@"YOUR_PUBGUARD_KEY_HERE"];
+    return YES;
+}
+
+@end
+```
+
+
+#### Unity
+
+As was mentioned earlier, pubguard installation and initialization must be in Xcode project, which you get after building Unity project for iOS platform. In this project find UnityAppController.mm file and find application didFinishLaunchingWithOptions function. Add [Pubguard initiateTrackerWithKey:@"YOUR_PUBGUARD_KEY_HERE"];
+
+```
+*Example UnityAppController.mm (excerpt)*
+
+#import <Pubguard/Pubguard.h>
+…
+
+@implementation UnityAppController
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
