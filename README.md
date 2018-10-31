@@ -131,8 +131,21 @@ If you are adding the library manually please refer to these [instructions](ios-
 
 #### Unity installation
 
-Unity installation is the same as manual installation [instructions](ios-manual-install.md). Framework must be installed in Xcode project, which you get after building Unity project for iOS platform.
+Unity supports installation via cocoapods and manual installation. Framework must be installed in Xcode project, which you get after building Unity project for iOS platform.
 
+##### cocoapods (Unity)
+
+Please add the following line to your Podfile (adding in your app key):
+
+```
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.13.0/Pubguard-1.13.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+```
+
+Then run "pod install --repo-update"
+
+##### manual (Unity)
+
+Manual installation is the same [instructions](ios-manual-install.md).
 
 ### Initialising the Library
 
