@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.14.0 (2018/11/02)
+* Support for Google ads v7.34.0  
+
 ### 1.13.0 (2018/10/31)
 * Improved Video ad support.
 
