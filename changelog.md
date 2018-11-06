@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.15.0 (2018/11/06)
+* Bugfix video interstitials
+
 ### 1.14.0 (2018/11/02)
 * Support for Google ads v7.34.0  
 
