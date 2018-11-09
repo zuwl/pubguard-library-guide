@@ -1,6 +1,9 @@
 # CHANGELOG
 
 ## iOS
+### 1.16.0 (2018/11/09)
+* Improved video support for Vungle, Tapjoy, Unity, AdColony and MoPub
+
 ### 1.15.0 (2018/11/06)
 * Bugfix video interstitials
 
