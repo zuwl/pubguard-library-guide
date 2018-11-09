@@ -108,7 +108,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.15.0**
+The latest version of the iOS Pubguard Library is **1.16.0**
 
 ### Installing
 
@@ -119,7 +119,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.14.0/Pubguard-1.14.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.16.0/Pubguard-1.16.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -138,7 +138,7 @@ Unity supports installation via cocoapods and manual installation. Framework mus
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.15.0/Pubguard-1.15.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.16.0/Pubguard-1.16.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
