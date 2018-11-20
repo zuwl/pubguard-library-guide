@@ -7,11 +7,12 @@ Proguard will by default rename these classes therefore you are required to add 
 ```
 ##START Pubguard Library rules
 
+-keep public class com.pubguard.client.api.beans.Events
 -keep public class com.pubguard.client.database.beans.*{* ;}
 -keep public class com.pubguard.client.Pubguard { public static *;}
--keep public class com.pubguard.client.factory.*{* ;}  
+-keep public class com.pubguard.client.factory.*{* ;}
 -keep public class * extends com.pubguard.client.factory.adFactory {
-   public static com.pubguard.client.factory.* initialize(...);
+  public static com.pubguard.client.factory.* initialize(...);
 }
 
 -dontwarn com.aerserv.**
