@@ -65,6 +65,9 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.16.0 (2018/11/21)
+* Proguard changes
+
 ### 1.15.0 (2018/11/20)
 * Improved AdMob/ DFP support
 
