@@ -1,6 +1,10 @@
 # CHANGELOG
 
 ## iOS
+### 1.19.0 (2018/11/22)
+* Google ads v7.36.0 support
+* Core data bug fix
+
 ### 1.16.0 (2018/11/09)
 * Improved video support for Vungle, Tapjoy, Unity, AdColony and MoPub
 
