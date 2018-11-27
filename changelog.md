@@ -69,6 +69,9 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.17.0 (2018/11/27)
+* Higher precision sampling control
+
 ### 1.16.0 (2018/11/21)
 * Proguard changes
 
