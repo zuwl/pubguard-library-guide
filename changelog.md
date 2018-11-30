@@ -1,6 +1,11 @@
 # CHANGELOG
 
 ## iOS
+### 1.20.0 (2018/11/30)
+* Improved sampling control
+* Improved medaition support for DFP
+* Support for Smaato v10.1.0
+
 ### 1.19.0 (2018/11/22)
 * Google ads v7.36.0 support
 * Core data bug fix
@@ -69,6 +74,9 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.18.0 (2018/11/30)
+* Support for Smaato 9.1.2
+
 ### 1.17.0 (2018/11/27)
 * Higher precision sampling control
 
