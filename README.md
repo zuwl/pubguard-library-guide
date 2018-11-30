@@ -44,7 +44,7 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 # Android
 
 
-The latest version of the Android Pubguard Library is **1.17.0**
+The latest version of the Android Pubguard Library is **1.18.0**
 
 **NB do not minify the Pubguard library**
 
@@ -73,7 +73,7 @@ repositories {
 dependencies {
 ...
     implementation 'com.google.android.gms:play-services-basement:[GOOGLE_AD_VERSION]'
-    implementation 'com.pubguard:pubguard-client:1.17.0'
+    implementation 'com.pubguard:pubguard-client:1.18.0'
 
 }
 
@@ -108,7 +108,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.19.0**
+The latest version of the iOS Pubguard Library is **1.20.0**
 
 ### Installing
 
@@ -119,7 +119,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.19.0/Pubguard-1.19.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.20.0/Pubguard-1.20.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -138,7 +138,7 @@ Unity supports installation via cocoapods and manual installation. Framework mus
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.19.0/Pubguard-1.19.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.20.0/Pubguard-1.20.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -267,7 +267,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | MoPub | 5.2.0| 5.3.0 |
 | OpenX | 4.7.0 |4.7.0 |
 | RFMAdSDK | 6.4.0| 6.4.0|
-| SmaatoSDK | 9.0.2 | 8.0.1 |
+| SmaatoSDK | 10.1.0 | 9.1.2 |
 | Tapjoy | 12.1.0 | |
 | Unity Ads | 2.3.0 | |
 | Vungle | 6.2.0 | |
