@@ -1,6 +1,12 @@
 # CHANGELOG
 
 ## iOS
+### 1.22.0 (2019/01/18)
+* Video auto play detection
+
+### 1.21.0 (2019/01/08)
+* Mopub 5.4.1 support
+
 ### 1.20.0 (2018/11/30)
 * Improved sampling control
 * Improved medaition support for DFP
