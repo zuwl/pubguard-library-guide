@@ -264,7 +264,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | InMobiSDK | 7.1.1 | 7.1.1  |
 | IronSourceSDK | 6.7.10 | |
 | AOL one (MMAdSDK) | 6.8.0| 6.8.0 |
-| MoPub | 5.2.0| 5.3.0 |
+| MoPub | 5.4.1| 5.3.0 |
 | OpenX | 4.7.0 |4.7.0 |
 | RFMAdSDK | 6.4.0| 6.4.0|
 | SmaatoSDK | 10.1.0 | 9.1.2 |
