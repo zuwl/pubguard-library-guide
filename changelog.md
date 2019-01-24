@@ -1,7 +1,11 @@
 # CHANGELOG
 
 ## iOS
+
 ### 1.22.0 (2019/01/18)
+* Video auto play detection
+
+### ~~1.22.0 (2019/01/18) ~~
 * Video auto play detection
 
 ### 1.21.0 (2019/01/08)

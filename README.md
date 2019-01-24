@@ -108,7 +108,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.22.0**
+The latest version of the iOS Pubguard Library is **1.22.1**
 
 ### Installing
 
