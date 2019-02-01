@@ -2,10 +2,13 @@
 
 ## iOS
 
-### 1.22.2 (2019/01/18)
-* Bugfix for AVPlayer auto play detection
+### 1.22.3 (2019/02/01)
+* Improved performance
 
-### 1.22.1 (2019/01/18)
+### 1.22.2 
+* Improved malware detection
+
+### 1.22.1 
 * Video auto play detection
 
 ### ~~1.22.0 (2019/01/18)~~
