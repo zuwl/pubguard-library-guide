@@ -1,6 +1,11 @@
 # CHANGELOG
 
 ## iOS
+### 1.23.0 (2019/02/12)
+* Google Ads 7.38.0
+* AOL 6.8.2
+* MoPub 5.5.0
+* Video auto play detection improvements
 
 ### 1.22.3 (2019/02/01)
 * Improved performance
