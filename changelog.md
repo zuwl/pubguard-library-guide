@@ -98,6 +98,13 @@
 * Fix for crash from old os version using core data
 
 ## Android
+### 1.20.0 (2019/02/08)
+* Mopub update to 5.4.1
+
+### 1.19.0 (2019/01/17)
+* Ironsource 6.7.12 
+* Imporoved support for Google native video ads
+
 ### 1.18.0 (2018/11/30)
 * Support for Smaato 9.1.2
 
