@@ -102,6 +102,7 @@
 * Mopub update to 5.5.0
 * Google ads update to 17.1.2
 * Proguard changes
+* Fix memory leak bug
 
 ### 1.20.0 (2019/02/08)
 * Mopub update to 5.4.1
