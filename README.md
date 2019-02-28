@@ -44,7 +44,7 @@ pubguardKey = "xxxxxxxxxxxxxxxxxxx"
 # Android
 
 
-The latest version of the Android Pubguard Library is **1.20.0**
+The latest version of the Android Pubguard Library is **1.21.0**
 
 **NB do not minify the Pubguard library**
 
@@ -73,7 +73,7 @@ repositories {
 dependencies {
 ...
     implementation 'com.google.android.gms:play-services-basement:[GOOGLE_AD_VERSION]'
-    implementation 'com.pubguard:pubguard-client:1.20.0'
+    implementation 'com.pubguard:pubguard-client:1.21.0'
 
 }
 
@@ -260,11 +260,11 @@ These are SDKs designed specifically for serving advertising content into your a
 | AppNexusSDK | 4.0.1 |  4.0.1  |
 | FBAudienceNetwork | 4.99.1 | 4.28.2  |
 | Firebase/AdMob | 4.10.0 | 15.0.0  |
-| Google-Mobile-Ads-SDK | 7.38.0  | 17.1.1 |
+| Google-Mobile-Ads-SDK | 7.38.0  | 17.1.2 |
 | InMobiSDK | 7.1.1 | 7.1.1  |
 | IronSourceSDK | 6.7.10 | 6.7.12 |
 | AOL one (MMAdSDK) | 6.8.2| 6.8.0 |
-| MoPub | 5.5.0| 5.4.1 |
+| MoPub | 5.5.0| 5.5.0 |
 | OpenX | 4.7.0 |4.7.0 |
 | RFMAdSDK | 6.4.0| 6.4.0|
 | SmaatoSDK | 10.1.1 | 9.1.2 |
