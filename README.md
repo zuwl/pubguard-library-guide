@@ -258,7 +258,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | AdColony   | 3.3.0|    |
 | AmazonAd   | 2.2.15.1 | 5.8.2   |
 | AppNexusSDK | 4.0.1 |  4.0.1  |
-| FBAudienceNetwork | 4.99.1 | 4.28.2  |
+| FBAudienceNetwork | 5.1.0 | 4.28.2  |
 | Firebase/AdMob | 4.10.0 | 15.0.0  |
 | Google-Mobile-Ads-SDK | 7.38.0  | 17.1.2 |
 | InMobiSDK | 7.1.1 | 7.1.1  |
