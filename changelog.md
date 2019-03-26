@@ -1,6 +1,10 @@
 # CHANGELOG
 
 ## iOS
+### 1.24.0 (2019/03/26)
+* Improved ad delivery detection
+* Facebook auto redirect detection
+
 ### 1.23.1 (2019/02/20)
 * Bugfix
 
