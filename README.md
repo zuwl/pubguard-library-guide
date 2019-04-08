@@ -108,7 +108,7 @@ If you are using Proguard please see our section on [using Pubguard with Proguar
 
 # iOS
 
-The latest version of the iOS Pubguard Library is **1.24.0**
+The latest version of the iOS Pubguard Library is **1.25.0**
 
 ### Installing
 
@@ -119,7 +119,7 @@ There are 2 methods of installing the Pubguard framework:
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.24.0/Pubguard-1.24.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.25.0/Pubguard-1.25.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -138,7 +138,7 @@ Unity supports installation via cocoapods and manual installation. Framework mus
 Please add the following line to your Podfile (adding in your app key):
 
 ```
-pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.24.0/Pubguard-1.24.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
+pod 'Pubguard', podspec: 'https://customer.pubguard.com/cocoapods/pubguard-ios-framework/1.25.0/Pubguard-1.25.0.podspec?access_token=YOUR_PUBGUARD_KEY_HERE'
 ```
 
 Then run "pod install --repo-update"
@@ -257,6 +257,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | ------- | ----- | ------- |
 | AdColony   | 3.3.0|    |
 | AmazonAd   | 2.2.15.1 | 5.8.2   |
+| Amazon Publisher Services | 2.1.2 | |
 | AppNexusSDK | 4.0.1 |  4.0.1  |
 | FBAudienceNetwork | 5.1.0 | 4.28.2  |
 | Firebase/AdMob | 4.10.0 | 15.0.0  |
@@ -264,7 +265,7 @@ These are SDKs designed specifically for serving advertising content into your a
 | InMobiSDK | 7.1.1 | 7.1.1  |
 | IronSourceSDK | 6.7.10 | 6.7.12 |
 | AOL one (MMAdSDK) | 6.8.2| 6.8.0 |
-| MoPub | 5.5.0| 5.5.0 |
+| MoPub | 5.6.0| 5.5.0 |
 | OpenX | 4.7.0 |4.7.0 |
 | RFMAdSDK | 6.4.0| 6.4.0|
 | SmaatoSDK | 10.1.1 | 9.1.2 |
