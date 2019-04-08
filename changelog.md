@@ -1,6 +1,11 @@
 # CHANGELOG
 
 ## iOS
+### 1.25.0 (2019/04/05)
+* Amazon Publisher Services 2.1.2 support
+* MoPub 5.6.0 support
+* Crash reporting
+
 ### 1.24.0 (2019/03/26)
 * Improved ad delivery detection
 * Facebook auto redirect detection
